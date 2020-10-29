@@ -19,18 +19,14 @@ Agora, preciso tentar arrumar isto sozinho, poderia pegar uma imagem a qual se a
 
 
 
-
-![tela1](.\GitHub img\tela1.PNG)
-
+<img src=".\GitHub img\tela1.PNG">
 
 
-![tela2](.\GitHub img\tela2.PNG)
+<img src=".\GitHub img\tela2.PNG">
 
 
 
-
-
-![tela3](.\GitHub img\tela3.PNG)
+<img src=".\GitHub img\tela3.PNG">
 
 
 
