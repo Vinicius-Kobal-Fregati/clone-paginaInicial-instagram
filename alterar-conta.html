@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/login.css">
         <title>Instagram</title>
     </head>
     <body>
@@ -14,19 +14,33 @@
             <div class="instagram-continue">
                 <div class="group">
                     <img src="./img/instagram-logo.png" alt="Logo do aplicativo Instagram" class="instagram-logo">
-                    <div class="profile-photo">
-                        <img src="./img/perfil-instagram.jpeg" alt="Foto de perfil">
+                    <form>
+                        <div class="login">
+                            <div class="login-name">
+                                <label>
+                                    <input aria-label="Telefone, nome de usuário ou e-mail" type="text" class="name" value="Telefone, nome de usuário ou e-mail">
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input aria-label="Senha" type="text" class="password" value="Senha">
+                                </label>
+                            </div>
+    
+                        </div>
+                    </form>
+                    <a href="#" class="instagram-login">Entrar</a>
+                    <div class="separation">
+                        <div class="line">            </div>
+                        <div>OU</div>
+                        <div class="line"></div>
                     </div>
-                    <a href="#" class="instagram-login">Continue como @</a>
-                    <a href="alterar-conta.html" class="instagram-logout">Remover conta</a>
+
+                    <a href="#" class="facebook-login"><span><img src="./img/facebook-logo.png" alt="Imagem do logo do Facebook" class="facebook-picture"></span><span class="text-facebook">Entrar com o Facebook</span></a> <!--Editar aqui-->
+                    <a href="#" class="password-missed">Esqueceu a senha?</a>
                 </div>
                 <div class="group">
-                    <p class="not-account">Não é @?</p>
-                    <p class="not-account">
-                        <span class="link-blue"><a href="alterar-conta.html">Alterar conta</a></span>
-                        ou
-                        <span class="link-blue"><a href="./cadastro.html">Cadastre-se</a></span>
-                    </p>
+                    <p class="not-account">Não tem uma conta? <a href="./cadastro.html">Cadastre-se</a></p> 
                 </div> 
                 <div class="get-the-app">
                     <p class="get-app">Obtenha o aplicativo</p>
